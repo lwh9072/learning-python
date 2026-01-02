@@ -2,8 +2,16 @@
 # Example file for working with conditional statements
 
 
-x, y = 10, 100
+x, y, z = 100, 100, 200
 
 # conditional flow uses if, elif, else
+if x < y:
+  print("x is less than y")
+elif x == y:
+  print("x is the same as y")
+else:
+  print("x is greater than y")
 
 # conditional statements let you use "a if C else b"
+result = "x is less then y" if (x < y) else "x is greater or equal to y"
+print(result)
